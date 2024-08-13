@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&family=Playwrite+MX:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sankofa+Display&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Playwrite+AR:wght@100..400&family=Playwrite+MX:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sankofa+Display&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+body {
+  text-align: center;
+  background: linear-gradient(to left, #000000, #434343);
+}
+
+h1 {
+  font-size: 4rem;
+  color: hsl(0, 3%, 71%);
+  font-family: "Playwrite AR", cursive;
+  font-weight: 300;
+  /* text-shadow: 5px 0 #541b2f; */
+  /* background: linear-gradient(to right, #000046, #1cb5e0); */
+  /* -webkit-background-clip: text; */
+  /* color: transparent; */
+
+}
+.underline{
+  color: #4d42b2;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url(./images/kick\ drum.webp);
+  background-size: cover;
+  
+}
+
+.e {
+  background-image: url(./images/snaree.webp);
+  background-size: 100px;
+  background-position: center;
+}
+
+.r {
+  background-image: url(./images/hi\ hats.webp);
+  background-size: contain;
+}
+
+.t {
+  background-image: url(./images/ride.webp);
+  background-size: contain;
+}
+
+.y {
+  background-image: url(./images/crash.webp);
+  background-size: contain;
+}
+
+.u {
+  background-image: url(./images/flooooot.webp);
+  background-size: contain;
+}
+
+.i {
+  background-image: url(./images/tooooooom.webp);
+  background-size: contain;
+}
+
+.set {
+  /* display: flex;
+  justify-content: center;
+  justify-items: center; */
+  margin: 30px 30px 30px 30px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+.hdiv{
+  max-width: 100%;
+  overflow: hidden;
+}
+.red {
+  color: red;
+}
+
+.drum {
+  display: flex;
+  align-items: center;
+  outline: none;
+  /* border: 10px solid #404B69; */
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #fff7f740;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  margin: 10px;
+  /* background-color: white; */
+}
